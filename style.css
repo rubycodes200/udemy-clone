@@ -12,6 +12,10 @@ body{
     padding: 10px;
     border-bottom: solid black 1px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color:white;
+
     
 }
 .navbar__s1__title{
@@ -31,6 +35,7 @@ body{
 .navbar__s2 input{
     border: none;
     width: 100%;
+    background-color: transparent;
 }
 .navbar__s2 input:focus{
     outline: none;
