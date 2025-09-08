@@ -15,6 +15,7 @@ body{
     position: sticky;
     top: 0;
     background-color:white;
+    
 
     
 }
@@ -47,6 +48,26 @@ body{
     align-items: center;
     
 }
+
+.mylearning{
+    position: relative;
+}
+
+.mylearning__popup{
+    position:absolute ;
+    border: solid black 1px;
+    background-color: white;
+    width: 150%;
+    top:30px ;
+    right: 0;
+    padding: 20px;
+    display: none;
+}
+
+
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
 .categories{
     display: flex;
     padding: 10px;
@@ -62,12 +83,24 @@ body{
     border-radius: 30px;
     
 }
+
+.sale-image{
+    position: relative;
+}
+.sale-image_offer{
+    width: 35%;
+border: solid black 2px;
+padding: 2%;
+position:absolute ;
+top: 10%;
+left: 10%;
+}
 .sale-image img{
     width: 100%;
 
 }
 .recommended{
-    padding: 10px;
+    padding: 2%;
 }
 
 .course__card{
